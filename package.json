@@ -1,0 +1,16 @@
+{
+  "name": "99-luftballons",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/index.js --generate",
+    "print": "node src/index.js --print",
+    "println": "node src/index.js --println"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "german-metadata": "github:xisz/german-metadata"
+  }
+}
